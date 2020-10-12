@@ -1,0 +1,124 @@
+/**{
+	padding: 0px !important;
+	margin: 0px !important;
+}*/
+
+html{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.header{
+	height: 100vh;
+}
+
+.video-baground{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    z-index: -1;
+}
+
+.intro{
+	color: #fff;
+	text-align: center;
+	justify-content: center;
+}
+
+
+
+.nav-link{
+   color: black !important;
+}
+
+.navbar img{
+   width: 40px;
+   height: 20px;
+}
+
+.navbar li{
+   padding: 0 10px !important;
+}
+
+		
+.intro{
+    transform: translateY(70%);
+	text-align: center;
+	justify-content: center;
+	color: #fff !important;
+}
+
+
+.card-deck{
+   margin-left: 10%;
+}
+
+.info1{
+	margin: 2cm;
+}
+
+.info2{
+	margin: 1cm !important;
+}
+
+.p1 {
+	margin-left: 17%;
+}
+
+.h1{
+	margin-left: 17%;
+	margin-top: 70% !important;
+}
+
+.info1 img{
+/*   transform: perspective(600);
+   transform: rotateY(5deg);*/
+ /*  justify-content: center;
+   z-index: 1;*/
+}
+.service{
+	text-align: center;
+	justify-content: center;
+}
+
+.i3 {
+     width: 700px;
+     height: 404px;
+}
+
+/*.sun{
+   margin: 0cm !important; 
+}*/
+
+.sun p{
+	font-size: 0.9rem;
+	margin: 20px 0 15px 0 !important;
+	margin-left: 100px;
+	font-weight: bold;
+	line-height: 1.1;
+	word-spacing: 4px;
+}
+
+
+ @media only screen and (max-width:686px){
+ 	.card-deck{
+ 		margin-left: 0px !important;
+ 	}
+ 	.i3{
+ 		width: 405px;
+ 		height: 300px;
+ 	}
+
+ }
+
+
+
+ @media only screen and (max-width:998px){
+ 	.card-deck{
+ 		margin-left: 5%;
+ 	}
+ }
